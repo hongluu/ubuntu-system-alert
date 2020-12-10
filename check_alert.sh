@@ -330,7 +330,7 @@ MIME-Version: 1.0
 		background: red;
 	}
 	.warning {
-		color:white;
+		color:black;
 		background: yellow;
 	}
 	.critical{
