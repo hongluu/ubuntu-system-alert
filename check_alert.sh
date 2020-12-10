@@ -313,7 +313,7 @@ prepare_alert () {
 	cat > ./alert_email.txt << EOF
 From: Server ${HOSTNAME} <${FROM_EMAIL}>
 To: ${TO_EMAIL}
-Subject: [${METRIC_NAME} Alert] ${METRIC_NAME}: ${HOSTNAME}
+Subject: [${METRIC_NAME} Alert]: ${HOSTNAME}
 Content-Type: text/html
 MIME-Version: 1.0
 <html>
